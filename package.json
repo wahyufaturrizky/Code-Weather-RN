@@ -1,0 +1,52 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "postinstall": "rndebugger-open",
+    "debug": "open 'rndebugger://set-debugger-loc?host=localhost&port=19002' && expo start",
+    "react-devtools": "react-devtools"
+  },
+  "dependencies": {
+    "date-fns": "^2.17.0",
+    "expo": "^49.0.3",
+    "expo-status-bar": "~1.6.0",
+    "fs": "0.0.1-security",
+    "react": "18.2.0",
+    "react-devtools": "^4.28.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.72.3",
+    "react-native-dotenv": "^2.5.3",
+    "react-native-elements": "^3.2.0",
+    "react-native-vector-icons": "^8.0.0",
+    "react-native-web": "^0.19.7",
+    "redux-devtools-extension": "^2.13.8",
+    "styled-components": "^5.2.1",
+    "expo-location": "~16.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "metro-react-native-babel-preset": "^0.65.2",
+    "react-native-debugger-open": "^0.3.25"
+  },
+  "private": true,
+  "name": "code-weather-rn",
+  "description": "<table style=\"border-collapse: collapse;border-style:hidden;\">   <tr>     <td align=\"center\"><img src=\"https://user-images.githubusercontent.com/70764046/110363786-e4cc8800-803a-11eb-97d1-eb3c3caa53ed.png\" width=\"300px;\" alt=\" loadingPage\"/></td>       <td align=\"center\"><img src=\"https://user-images.githubusercontent.com/70764046/110365487-02025600-803d-11eb-9c2b-fa1dbc126b54.png\" width=\"300px;\" alt=\" first page\"/></td>           <td align=\"center\"><img src=\"https://user-images.githubusercontent.com/70764046/110365895-7d640780-803d-11eb-840c-9daffbc5a13e.png\" width=\"300px;\" alt=\" second page\"/></td>",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wahyufaturrizky/Code-Weather-RN.git"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "https://www.linkedin.com/in/wahyu-fatur-rizky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wahyufaturrizky/Code-Weather-RN/issues"
+  },
+  "homepage": "https://github.com/wahyufaturrizky/Code-Weather-RN#readme"
+}
